@@ -18,7 +18,7 @@
     class="light-style layout-wide customizer-hide"
     dir="ltr"
     data-theme="theme-default"
-    data-assets-path="{{asset('public/assets/dashboard/"
+    data-assets-path="public/assets/dashboard/"
     data-template="vertical-menu-template"
     data-style="light"
 >
