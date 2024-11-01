@@ -4,7 +4,7 @@ return [
     'adminSidebarMenu' => [
         ["isMenuHeader" => true, "headerText" => "Apps &amp; Pages"], 
         ["route" => "dashboard.home", "menuItemText"=>"Dashboard", "icon"=>"bx bx-home-smile"],
-        ["route" => "dashboard.home", "menuItemText"=>"Calendar", "icon"=>"bx bx-calendar"], 
+        ["route" => "dashboard.calender", "menuItemText"=>"Calendar", "icon"=>"bx bx-calendar"], 
         ["isToggleMenu"=>true, "route" => "products", "menuItemText"=>"Products", "icon"=>"bx bxs-package", "submenu"=>[
             ["route" => "dashboard.products.index", "menuItemText"=>"Product List"],
             ["route" => 'dashboard.products.create', "menuItemText"=>"Add Product"],

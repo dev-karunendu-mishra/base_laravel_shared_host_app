@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console;
+namespace App\Console\Commands;
 
 use App\Console\Commands\MakeCustomMigration; // Import your custom command
 use App\Console\Commands\MakeCustomModel;

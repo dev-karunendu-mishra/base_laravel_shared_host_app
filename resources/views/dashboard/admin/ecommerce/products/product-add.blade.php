@@ -94,7 +94,7 @@
                     </div>
                     <!-- /Media -->
                     <!-- Variants -->
-                    <div class="card mb-6">
+                    {{--<div class="card mb-6">
                         <div class="card-header">
                             <h5 class="card-title mb-0">Variants</h5>
                         </div>
@@ -134,10 +134,10 @@
                                 </div>
                             </form>
                         </div>
-                    </div>
+                    </div>--}}
                     <!-- /Variants -->
                     <!-- Inventory -->
-                    <div class="card mb-6">
+                    {{--<div class="card mb-6">
                         <div class="card-header">
                             <h5 class="card-title mb-0">Inventory</h5>
                         </div>
@@ -359,7 +359,7 @@
                                 <!-- /Options-->
                             </div>
                         </div>
-                    </div>
+                    </div>--}}
                     <!-- /Inventory -->
                 </div>
                 <!-- /Second column -->
@@ -407,13 +407,13 @@
                     </div>
                     <!-- /Pricing Card -->
                     <!-- Organize Card -->
-                    <div class="card mb-6">
+                    {{--<div class="card mb-6">
                         <div class="card-header">
                             <h5 class="card-title mb-0">Organize</h5>
                         </div>
                         <div class="card-body">
                             <!-- Vendor -->
-                            <div class="mb-6 col ecommerce-select2-dropdown">
+                            <!-- <div class="mb-6 col ecommerce-select2-dropdown">
                                 <label class="form-label mb-1" for="vendor">
                                     Vendor
                                 </label>
@@ -423,9 +423,9 @@
                                     <option value="women-clothing">Women's-clothing</option>
                                     <option value="kid-clothing">Kid's-clothing</option>
                                 </select>
-                            </div>
+                            </div> -->
                             <!-- Category -->
-                            <div class="d-flex justify-content-between align-items-center">
+                            <!-- <div class="d-flex justify-content-between align-items-center">
                                 <div class="mb-6 col ecommerce-select2-dropdown">
                                     <label class="form-label mb-1" for="category-org">
                                         <span>Category</span>
@@ -442,9 +442,9 @@
                                 </div>
                                 <a href="javascript:void(0);" class="fw-medium btn btn-icon btn-label-primary ms-4"><i
                                         class='bx bx-plus bx-md'></i></a>
-                            </div>
+                            </div> -->
                             <!-- Collection -->
-                            <div class="mb-6 col ecommerce-select2-dropdown">
+                            <!-- <div class="mb-6 col ecommerce-select2-dropdown">
                                 <label class="form-label mb-1" for="collection">Collection
                                 </label>
                                 <select id="collection" class="select2 form-select" data-placeholder="Collection">
@@ -453,7 +453,7 @@
                                     <option value="women-clothing">Women's-clothing</option>
                                     <option value="kid-clothing">Kid's-clothing</option>
                                 </select>
-                            </div>
+                            </div> -->
                             <!-- Status -->
                             <div class="mb-6 col ecommerce-select2-dropdown">
                                 <label class="form-label mb-1" for="status-org">Status
@@ -466,13 +466,13 @@
                                 </select>
                             </div>
                             <!-- Tags -->
-                            <div>
+                            <!-- <div>
                                 <label for="ecommerce-product-tags" class="form-label mb-1">Tags</label>
                                 <input id="ecommerce-product-tags" class="form-control" name="ecommerce-product-tags"
                                     value="Normal,Standard,Premium" aria-label="Product Tags">
-                            </div>
+                            </div> -->
                         </div>
-                    </div>
+                    </div>--}}
                     <!-- /Organize Card -->
                 </div>
                 <!-- /Second column -->

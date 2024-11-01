@@ -110,7 +110,11 @@
 
 
 <!-- Menu -->
+@hasrole('admin')
 @include('dashboard.layouts.sidebar')
+@else
+No SideBar
+@endhasrole
 <!-- / Menu -->
 
     
