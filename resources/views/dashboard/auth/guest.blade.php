@@ -110,7 +110,7 @@
             href="/assets/dashboard/vendor/css/rtl/theme-default.css"
             class="template-customizer-theme-css"
         />
-        <link rel="stylesheet" href="{{public_path('/assets/dashboard/css/demo.css')}}" />
+        <link rel="stylesheet" href="/assets/dashboard/css/demo.css" />
 
         <!-- Vendors CSS -->
         <link
