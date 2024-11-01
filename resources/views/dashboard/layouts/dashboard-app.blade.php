@@ -13,7 +13,7 @@
 <!-- beautify ignore:start -->
 
 
-<html lang="en" class="light-style layout-navbar-fixed layout-menu-fixed layout-compact " dir="ltr" data-theme="theme-default" data-assets-path="{{assets('/assets/dashboard/" data-template="vertical-menu-template" data-style="light">
+<html lang="en" class="light-style layout-navbar-fixed layout-menu-fixed layout-compact " dir="ltr" data-theme="theme-default" data-assets-path="{{assets('public/assets/dashboard/" data-template="vertical-menu-template" data-style="light">
 
   <head>
     <meta charset="utf-8">
@@ -40,7 +40,7 @@
     <!-- End Google Tag Manager -->
     
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="{{assets('/assets/dashboard/img/favicon/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="{{assets('public/assets/dashboard/img/favicon/favicon.ico">
 
     <!-- Fonts -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -49,46 +49,46 @@
     <link href="../../../css2-1?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
     <!-- Icons -->
-    <link rel="stylesheet" href="{{assets('{{assets('/assets/dashboard/vendor/fonts/boxicons.css')}}">
-    <link rel="stylesheet" href="{{assets('/assets/dashboard/vendor/fonts/fontawesome.css">
-    <link rel="stylesheet" href="{{assets('/assets/dashboard/vendor/fonts/flag-icons.css">
+    <link rel="stylesheet" href="{{assets('{{assets('public/assets/dashboard/vendor/fonts/boxicons.css')}}">
+    <link rel="stylesheet" href="{{assets('public/assets/dashboard/vendor/fonts/fontawesome.css">
+    <link rel="stylesheet" href="{{assets('public/assets/dashboard/vendor/fonts/flag-icons.css">
 
     <!-- Core CSS -->
-    <link rel="stylesheet" href="{{assets('/assets/dashboard/vendor/css/rtl/core.css" class="template-customizer-core-css">
-    <link rel="stylesheet" href="{{assets('/assets/dashboard/vendor/css/rtl/theme-default.css" class="template-customizer-theme-css">
-    <link rel="stylesheet" href="{{assets('/assets/dashboard/css/demo.css">
+    <link rel="stylesheet" href="{{assets('public/assets/dashboard/vendor/css/rtl/core.css" class="template-customizer-core-css">
+    <link rel="stylesheet" href="{{assets('public/assets/dashboard/vendor/css/rtl/theme-default.css" class="template-customizer-theme-css">
+    <link rel="stylesheet" href="{{assets('public/assets/dashboard/css/demo.css">
     
     <!-- Vendors CSS -->
-    <link rel="stylesheet" href="{{assets('/assets/dashboard/vendor/libs/perfect-scrollbar/perfect-scrollbar.css">
-    <link rel="stylesheet" href="{{assets('/assets/dashboard/vendor/libs/typeahead-js/typeahead.css"> 
-    <link rel="stylesheet" href="{{assets('/assets/dashboard/vendor/libs/apex-charts/apex-charts.css">
-    <link rel="stylesheet" href="{{assets('/assets/dashboard/vendor/libs/fullcalendar/fullcalendar.css">
-    <link rel="stylesheet" href="{{assets('/assets/dashboard/vendor/libs/flatpickr/flatpickr.css">
-    <link rel="stylesheet" href="{{assets('/assets/dashboard/vendor/libs/tagify/tagify.css">
-    <link rel="stylesheet" href="{{assets('/assets/dashboard/vendor/libs/quill/typography.css">
-<link rel="stylesheet" href="{{assets('/assets/dashboard/vendor/libs/quill/katex.css">
-<link rel="stylesheet" href="{{assets('/assets/dashboard/vendor/libs/quill/editor.css">
+    <link rel="stylesheet" href="{{assets('public/assets/dashboard/vendor/libs/perfect-scrollbar/perfect-scrollbar.css">
+    <link rel="stylesheet" href="{{assets('public/assets/dashboard/vendor/libs/typeahead-js/typeahead.css"> 
+    <link rel="stylesheet" href="{{assets('public/assets/dashboard/vendor/libs/apex-charts/apex-charts.css">
+    <link rel="stylesheet" href="{{assets('public/assets/dashboard/vendor/libs/fullcalendar/fullcalendar.css">
+    <link rel="stylesheet" href="{{assets('public/assets/dashboard/vendor/libs/flatpickr/flatpickr.css">
+    <link rel="stylesheet" href="{{assets('public/assets/dashboard/vendor/libs/tagify/tagify.css">
+    <link rel="stylesheet" href="{{assets('public/assets/dashboard/vendor/libs/quill/typography.css">
+<link rel="stylesheet" href="{{assets('public/assets/dashboard/vendor/libs/quill/katex.css">
+<link rel="stylesheet" href="{{assets('public/assets/dashboard/vendor/libs/quill/editor.css">
 
-    <link rel="stylesheet" href="{{assets('/assets/dashboard/vendor/libs/select2/select2.css">
-    <link rel="stylesheet" href="{{assets('/assets/dashboard/vendor/libs/quill/editor.css">
-    <link rel="stylesheet" href="{{assets('/assets/dashboard/vendor/libs/%40form-validation/form-validation.css">
-    <link rel="stylesheet" href="{{assets('/assets/dashboard/vendor/libs/datatables-bs5/datatables.bootstrap5.css">
-<link rel="stylesheet" href="{{assets('/assets/dashboard/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css">
-<link rel="stylesheet" href="{{assets('/assets/dashboard/vendor/libs/datatables-buttons-bs5/buttons.bootstrap5.css">
-<link rel="stylesheet" href="{{assets('/assets/dashboard/vendor/libs/select2/select2.css">
-<link rel="stylesheet" href="{{assets('/assets/dashboard/vendor/libs/dropzone/dropzone.css">
-<link rel="stylesheet" href="{{assets('/assets/dashboard/vendor/libs/tagify/tagify.css">
+    <link rel="stylesheet" href="{{assets('public/assets/dashboard/vendor/libs/select2/select2.css">
+    <link rel="stylesheet" href="{{assets('public/assets/dashboard/vendor/libs/quill/editor.css">
+    <link rel="stylesheet" href="{{assets('public/assets/dashboard/vendor/libs/%40form-validation/form-validation.css">
+    <link rel="stylesheet" href="{{assets('public/assets/dashboard/vendor/libs/datatables-bs5/datatables.bootstrap5.css">
+<link rel="stylesheet" href="{{assets('public/assets/dashboard/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css">
+<link rel="stylesheet" href="{{assets('public/assets/dashboard/vendor/libs/datatables-buttons-bs5/buttons.bootstrap5.css">
+<link rel="stylesheet" href="{{assets('public/assets/dashboard/vendor/libs/select2/select2.css">
+<link rel="stylesheet" href="{{assets('public/assets/dashboard/vendor/libs/dropzone/dropzone.css">
+<link rel="stylesheet" href="{{assets('public/assets/dashboard/vendor/libs/tagify/tagify.css">
     <!-- Page CSS -->
      @stack('styles')
     
 
     <!-- Helpers -->
-    <script src="{{assets('/assets/dashboard/vendor/js/helpers.js"></script>
+    <script src="{{assets('public/assets/dashboard/vendor/js/helpers.js"></script>
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Template customizer: To hide customizer set displayCustomizer value false in config.js.  -->
-    <script src="{{assets('/assets/dashboard/vendor/js/template-customizer.js"></script>
+    <script src="{{assets('public/assets/dashboard/vendor/js/template-customizer.js"></script>
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
-    <script src="{{assets('/assets/dashboard/js/config.js"></script>
+    <script src="{{assets('public/assets/dashboard/js/config.js"></script>
     
 </head>
 
@@ -177,38 +177,38 @@ No SideBar
   <!-- Core JS -->
   <!-- build:js assets/vendor/js/core.js -->
   
-  <script src="{{assets('/assets/dashboard/vendor/libs/jquery/jquery.js"></script>
-  <script src="{{assets('/assets/dashboard/vendor/libs/popper/popper.js"></script>
-  <script src="{{assets('/assets/dashboard/vendor/js/bootstrap.js"></script>
-  <script src="{{assets('/assets/dashboard/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
-  <script src="{{assets('/assets/dashboard/vendor/libs/hammer/hammer.js"></script>
-  <script src="{{assets('/assets/dashboard/vendor/libs/i18n/i18n.js"></script>
-  <script src="{{assets('/assets/dashboard/vendor/libs/typeahead-js/typeahead.js"></script>
-  <script src="{{assets('/assets/dashboard/vendor/js/menu.js"></script>
+  <script src="{{assets('public/assets/dashboard/vendor/libs/jquery/jquery.js"></script>
+  <script src="{{assets('public/assets/dashboard/vendor/libs/popper/popper.js"></script>
+  <script src="{{assets('public/assets/dashboard/vendor/js/bootstrap.js"></script>
+  <script src="{{assets('public/assets/dashboard/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+  <script src="{{assets('public/assets/dashboard/vendor/libs/hammer/hammer.js"></script>
+  <script src="{{assets('public/assets/dashboard/vendor/libs/i18n/i18n.js"></script>
+  <script src="{{assets('public/assets/dashboard/vendor/libs/typeahead-js/typeahead.js"></script>
+  <script src="{{assets('public/assets/dashboard/vendor/js/menu.js"></script>
   
   <!-- endbuild -->
 
   <!-- Vendors JS -->
-  <script src="{{assets('/assets/dashboard/vendor/libs/apex-charts/apexcharts.js"></script>
-  <script src="{{assets('/assets/dashboard/vendor/libs/fullcalendar/fullcalendar.js"></script>
-<script src="{{assets('/assets/dashboard/vendor/libs/%40form-validation/popular.js"></script>
-<script src="{{assets('/assets/dashboard/vendor/libs/%40form-validation/bootstrap5.js"></script>
-<script src="{{assets('/assets/dashboard/vendor/libs/%40form-validation/auto-focus.js"></script>
-<script src="{{assets('/assets/dashboard/vendor/libs/select2/select2.js"></script>
-<script src="{{assets('/assets/dashboard/vendor/libs/moment/moment.js"></script>
-<script src="{{assets('/assets/dashboard/vendor/libs/flatpickr/flatpickr.js"></script>
-<script src="{{assets('/assets/dashboard/vendor/libs/datatables-bs5/datatables-bootstrap5.js"></script>
-<script src="{{assets('/assets/dashboard/vendor/libs/select2/select2.js"></script>  
-<script src="{{assets('/assets/dashboard/vendor/libs/quill/katex.js"></script>
-<script src="{{assets('/assets/dashboard/vendor/libs/quill/quill.js"></script>
-<script src="{{assets('/assets/dashboard/vendor/libs/dropzone/dropzone.js"></script>
-<script src="{{assets('/assets/dashboard/vendor/libs/jquery-repeater/jquery-repeater.js"></script>
+  <script src="{{assets('public/assets/dashboard/vendor/libs/apex-charts/apexcharts.js"></script>
+  <script src="{{assets('public/assets/dashboard/vendor/libs/fullcalendar/fullcalendar.js"></script>
+<script src="{{assets('public/assets/dashboard/vendor/libs/%40form-validation/popular.js"></script>
+<script src="{{assets('public/assets/dashboard/vendor/libs/%40form-validation/bootstrap5.js"></script>
+<script src="{{assets('public/assets/dashboard/vendor/libs/%40form-validation/auto-focus.js"></script>
+<script src="{{assets('public/assets/dashboard/vendor/libs/select2/select2.js"></script>
+<script src="{{assets('public/assets/dashboard/vendor/libs/moment/moment.js"></script>
+<script src="{{assets('public/assets/dashboard/vendor/libs/flatpickr/flatpickr.js"></script>
+<script src="{{assets('public/assets/dashboard/vendor/libs/datatables-bs5/datatables-bootstrap5.js"></script>
+<script src="{{assets('public/assets/dashboard/vendor/libs/select2/select2.js"></script>  
+<script src="{{assets('public/assets/dashboard/vendor/libs/quill/katex.js"></script>
+<script src="{{assets('public/assets/dashboard/vendor/libs/quill/quill.js"></script>
+<script src="{{assets('public/assets/dashboard/vendor/libs/dropzone/dropzone.js"></script>
+<script src="{{assets('public/assets/dashboard/vendor/libs/jquery-repeater/jquery-repeater.js"></script>
 <!-- Main JS -->
-  <script src="{{assets('/assets/dashboard/js/main.js"></script>
+  <script src="{{assets('public/assets/dashboard/js/main.js"></script>
   
 
   <!-- Page JS -->
-  <script src="{{assets('/assets/dashboard/js/dashboards-analytics.js"></script>
+  <script src="{{assets('public/assets/dashboard/js/dashboards-analytics.js"></script>
   @stack('scripts')
 </body>
 
