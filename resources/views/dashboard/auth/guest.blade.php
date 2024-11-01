@@ -69,7 +69,7 @@
         <link
             rel="icon"
             type="image/x-icon"
-            href="{{assets('public/assets/dashboard/img/favicon/favicon.ico"
+            href="{{assets('public/assets/dashboard/img/favicon/favicon.ico')}}"
         />
 
         <!-- Fonts -->
@@ -88,59 +88,59 @@
         <!-- Icons -->
         <link
             rel="stylesheet"
-            href="{{assets('public/assets/dashboard/vendor/fonts/boxicons.css"
+            href="{{assets('public/assets/dashboard/vendor/fonts/boxicons.css')}}"
         />
         <link
             rel="stylesheet"
-            href="{{assets('public/assets/dashboard/vendor/fonts/fontawesome.css"
+            href="{{assets('public/assets/dashboard/vendor/fonts/fontawesome.css')}}"
         />
         <link
             rel="stylesheet"
-            href="{{assets('public/assets/dashboard/vendor/fonts/flag-icons.css"
+            href="{{assets('public/assets/dashboard/vendor/fonts/flag-icons.css')}}"
         />
 
         <!-- Core CSS -->
         <link
             rel="stylesheet"
-            href="{{assets('public/assets/dashboard/vendor/css/rtl/core.css"
+            href="{{assets('public/assets/dashboard/vendor/css/rtl/core.css')}}"
             class="template-customizer-core-css"
         />
         <link
             rel="stylesheet"
-            href="{{assets('public/assets/dashboard/vendor/css/rtl/theme-default.css"
+            href="{{assets('public/assets/dashboard/vendor/css/rtl/theme-default.css')}}"
             class="template-customizer-theme-css"
         />
-        <link rel="stylesheet" href="{{assets('public/assets/dashboard/css/demo.css" />
+        <link rel="stylesheet" href="{{assets('public/assets/dashboard/css/demo.css')}}" />
 
         <!-- Vendors CSS -->
         <link
             rel="stylesheet"
-            href="{{assets('public/assets/dashboard/vendor/libs/perfect-scrollbar/perfect-scrollbar.css"
+            href="{{assets('public/assets/dashboard/vendor/libs/perfect-scrollbar/perfect-scrollbar.css')}}"
         />
         <link
             rel="stylesheet"
-            href="{{assets('public/assets/dashboard/vendor/libs/typeahead-js/typeahead.css"
+            href="{{assets('public/assets/dashboard/vendor/libs/typeahead-js/typeahead.css')}}"
         />
         <!-- Vendor -->
         <link
             rel="stylesheet"
-            href="{{assets('public/assets/dashboard/vendor/libs/%40form-validation/form-validation.css"
+            href="{{assets('public/assets/dashboard/vendor/libs/%40form-validation/form-validation.css')}}"
         />
 
         <!-- Page CSS -->
         <!-- Page -->
         <link
             rel="stylesheet"
-            href="{{assets('public/assets/dashboard/vendor/css/pages/page-auth.css"
+            href="{{assets('public/assets/dashboard/vendor/css/pages/page-auth.css')}}"
         />
 
         <!-- Helpers -->
-        <script src="{{assets('public/assets/dashboard/vendor/js/helpers.js"></script>
+        <script src="{{assets('public/assets/dashboard/vendor/js/helpers.js')}}"></script>
         <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
         <!--? Template customizer: To hide customizer set displayCustomizer value false in config.js.  -->
-        <script src="{{assets('public/assets/dashboard/vendor/js/template-customizer.js"></script>
+        <script src="{{assets('public/assets/dashboard/vendor/js/template-customizer.js')}}"></script>
         <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
-        <script src="{{assets('public/assets/dashboard/js/config.js"></script>
+        <script src="{{assets('public/assets/dashboard/js/config.js')}}"></script>
     </head>
 
     <body>
@@ -164,27 +164,27 @@
         <!-- Core JS -->
         <!-- build:js assets/vendor/js/core.js -->
 
-        <script src="{{assets('public/assets/dashboard/vendor/libs/jquery/jquery.js"></script>
-        <script src="{{assets('public/assets/dashboard/vendor/libs/popper/popper.js"></script>
-        <script src="{{assets('public/assets/dashboard/vendor/js/bootstrap.js"></script>
-        <script src="{{assets('public/assets/dashboard/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
-        <script src="{{assets('public/assets/dashboard/vendor/libs/hammer/hammer.js"></script>
-        <script src="{{assets('public/assets/dashboard/vendor/libs/i18n/i18n.js"></script>
-        <script src="{{assets('public/assets/dashboard/vendor/libs/typeahead-js/typeahead.js"></script>
-        <script src="{{assets('public/assets/dashboard/vendor/js/menu.js"></script>
+        <script src="{{assets('public/assets/dashboard/vendor/libs/jquery/jquery.js')}}"></script>
+        <script src="{{assets('public/assets/dashboard/vendor/libs/popper/popper.js')}}"></script>
+        <script src="{{assets('public/assets/dashboard/vendor/js/bootstrap.js')}}"></script>
+        <script src="{{assets('public/assets/dashboard/vendor/libs/perfect-scrollbar/perfect-scrollbar.js')}}"></script>
+        <script src="{{assets('public/assets/dashboard/vendor/libs/hammer/hammer.js')}}"></script>
+        <script src="{{assets('public/assets/dashboard/vendor/libs/i18n/i18n.js')}}"></script>
+        <script src="{{assets('public/assets/dashboard/vendor/libs/typeahead-js/typeahead.js')}}"></script>
+        <script src="{{assets('public/assets/dashboard/vendor/js/menu.js')}}"></script>
 
         <!-- endbuild -->
 
         <!-- Vendors JS -->
-        <script src="{{assets('public/assets/dashboard/vendor/libs/%40form-validation/popular.js"></script>
-        <script src="{{assets('public/assets/dashboard/vendor/libs/%40form-validation/bootstrap5.js"></script>
-        <script src="{{assets('public/assets/dashboard/vendor/libs/%40form-validation/auto-focus.js"></script>
+        <script src="{{assets('public/assets/dashboard/vendor/libs/%40form-validation/popular.js')}}"></script>
+        <script src="{{assets('public/assets/dashboard/vendor/libs/%40form-validation/bootstrap5.js')}}"></script>
+        <script src="{{assets('public/assets/dashboard/vendor/libs/%40form-validation/auto-focus.js')}}"></script>
 
         <!-- Main JS -->
-        <script src="{{assets('public/assets/dashboard/js/main.js"></script>
+        <script src="{{assets('public/assets/dashboard/js/main.js')}}"></script>
 
         <!-- Page JS -->
-        <script src="{{assets('public/assets/dashboard/js/pages-auth.js"></script>
+        <script src="{{assets('public/assets/dashboard/js/pages-auth.js')}}"></script>
     </body>
 </html>
 
