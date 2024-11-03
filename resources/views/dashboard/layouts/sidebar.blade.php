@@ -62,6 +62,7 @@
 
 
   <ul class="menu-inner py-1">
+    @auth('admin')
     @forelse(config('layout.adminSidebarMenu') as $menuItem)
     @if(!empty($menuItem['isMenuHeader']) && $menuItem['isMenuHeader'])
     <li class="menu-header small text-uppercase">
@@ -124,6 +125,8 @@
     @endif
     @empty
     @endforelse
+    @else
+    @endauth
 
     <!-- Dashboards -->
     <!-- <li class="menu-item active open">

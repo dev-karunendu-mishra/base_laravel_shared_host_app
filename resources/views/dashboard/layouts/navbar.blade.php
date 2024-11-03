@@ -416,8 +416,8 @@
                   </div>
                 </div>
                 <div class="flex-grow-1">
-                  <h6 class="mb-0">John Doe</h6>
-                  <small class="text-muted">Admin</small>
+                  <h6 class="mb-0">{{auth()->user()->name}}</h6>
+                  <small class="text-muted">{{auth()->user()->email}}</small>
                 </div>
               </div>
             </a>
@@ -463,7 +463,7 @@
           <li>
             <form method="POST" action="{{ route('logout') }}">
               @csrf
-              <a class="dropdown-item" href="route('logout')" onclick="event.preventDefault();
+              <a class="dropdown-item" href="{{route('logout')}}" onclick="event.preventDefault();
                                                 this.closest('form').submit();">
                 <i class="bx bx-power-off bx-md me-3"></i><span>{{ __('Log Out') }}</span>
               </a>

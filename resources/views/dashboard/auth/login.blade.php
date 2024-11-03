@@ -65,7 +65,7 @@
                         <h4 class="mb-1">Welcome to sneat! 👋</h4>
                         <p class="mb-6">Please sign-in to your account and start the adventure</p>
                         <x-auth-session-status class="mb-4" :status="session('status')" />
-                        <form id="formAuthentication" class="mb-6" method="POST" action="{{ route('login') }}">
+                        <form id="formAuthentication" class="mb-6" method="POST" action="{{ Route::currentRouteName() === 'admin.login' ? route('admin.login') : route('login') }}">
                             @csrf
                             <div class="mb-6">
                                 <label for="email" class="form-label">Email or Username</label>
@@ -94,7 +94,7 @@
                                             Remember Me
                                         </label>
                                     </div>
-                                    <a href="{{ route('password.request') }}">
+                                    <a href="{{ Route::currentRouteName() === 'admin.login' ? route('admin.password.request') : route('password.request') }}">
                                         <span>Forgot Password?</span>
                                     </a>
                                 </div>
@@ -106,7 +106,7 @@
 
                         <p class="text-center">
                             <span>New on our platform?</span>
-                            <a href="{{route('register')}}">
+                            <a href="{{Route::currentRouteName() === 'admin.login' ? route('admin.register') : route('register')}}">
                                 <span>Create an account</span>
                             </a>
                         </p>

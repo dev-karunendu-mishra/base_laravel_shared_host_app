@@ -44,7 +44,7 @@ class AdminRegisteredUserController extends Controller
 
         event(new Registered($user));
 
-        Auth::login($user);
+        Auth::guard('admin')->login($user);
 
         return redirect(route('admin.dashboard.home', absolute: false));
     }

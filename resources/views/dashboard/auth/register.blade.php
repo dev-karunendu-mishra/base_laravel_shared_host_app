@@ -66,7 +66,8 @@
                         <h4 class="mb-1">Adventure starts here 🚀</h4>
                         <p class="mb-6">Make your app management easy and fun!</p>
 
-                        <form id="formAuthentication" class="mb-6" action="index.html" method="GET">
+                        <form id="formAuthentication" class="mb-6"  method="POST" action="{{ Route::currentRouteName() === 'admin.register' ? route('admin.register') : route('register') }}">
+                        @csrf
                             <div class="mb-6">
                                 <label for="username" class="form-label">Username</label>
                                 <input type="text" class="form-control" id="username" name="username"
@@ -103,7 +104,7 @@
 
                         <p class="text-center">
                             <span>Already have an account?</span>
-                            <a href="auth-login-basic.html">
+                            <a href="{{ Route::currentRouteName() === 'admin.register' ? route('admin.login') : route('login') }}">
                                 <span>Sign in instead</span>
                             </a>
                         </p>

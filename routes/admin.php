@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::prefix('admin')->name('admin.')->group(function () {
-    Route::middleware('guest')->group(function () {
+    Route::middleware('guest:admin')->group(function () {
         Route::get('register', [AdminRegisteredUserController::class, 'create'])
             ->name('register');
 
@@ -61,7 +61,7 @@ Route::prefix('admin')->name('admin.')->group(function () {
             ->name('logout');
 
 
-        Route::middleware(['auth', 'verified'])->prefix('dashboard')->name('dashboard.')->group(function () {
+        Route::prefix('dashboard')->name('dashboard.')->group(function () {
             Route::get('', function () {
                 return view('dashboard.layouts.home');
             })->name('home');
