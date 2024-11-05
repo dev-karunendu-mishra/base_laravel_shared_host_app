@@ -63,68 +63,68 @@
 
   <ul class="menu-inner py-1">
     @auth('admin')
-    @forelse(config('layout.adminSidebarMenu') as $menuItem)
-    @if(!empty($menuItem['isMenuHeader']) && $menuItem['isMenuHeader'])
-    <li class="menu-header small text-uppercase">
-      <span class="menu-header-text" data-i18n="{{$menuItem['headerText']}}">{{$menuItem['headerText']}}</span>
-    </li>
-    @elseif(!empty($menuItem['isToggleMenu']) && $menuItem['isToggleMenu'])
-    <li class="menu-item">
-      <a href="javascript:void(0);" class="menu-link menu-toggle">
-        @if(!empty($menuItem['icon']))
-          <i class="menu-icon tf-icons {{$menuItem['icon']}}"></i>
-        @endif
-        <div class="text-truncate" data-i18n="{{$menuItem['menuItemText']}}">{{$menuItem['menuItemText']}}</div>
-      </a>
-      @if(!empty($menuItem['submenu']))
-      <ul class="menu-sub">
-        @foreach($menuItem['submenu'] as $subMenuItem)
-          @if(!empty($subMenuItem['isToggleMenu']) && $subMenuItem['isToggleMenu'])
-          <li class="menu-item">
-            <a href="javascript:void(0);" class="menu-link menu-toggle">
-              <div class="text-truncate" data-i18n="{{$subMenuItem['menuItemText']}}">{{$subMenuItem['menuItemText']}}</div>
-            </a>
-            @if(!empty($subMenuItem['submenu']))
-              <ul class="menu-sub">
-                @foreach($subMenuItem['submenu'] as $ssubMenuItem)
-                <li class="menu-item">
-                  <a href="{{route($ssubMenuItem['route'])}}" class="menu-link">
-                    @if(!empty($ssubMenuItem['icon']))
-                    <i class="menu-icon tf-icons {{$ssubMenuItem['icon']}}"></i>
-                    @endif
-                    <div class="text-truncate" data-i18n="{{$ssubMenuItem['menuItemText']}}">{{$ssubMenuItem['menuItemText']}}</div>
-                  </a>
-                </li>
-                @endforeach
-              </ul>
+      @forelse(config('layout.adminSidebarMenu') as $menuItem)
+        @if(!empty($menuItem['isMenuHeader']) && $menuItem['isMenuHeader'])
+        <li class="menu-header small text-uppercase">
+          <span class="menu-header-text" data-i18n="{{$menuItem['headerText']}}">{{$menuItem['headerText']}}</span>
+        </li>
+        @elseif(!empty($menuItem['isToggleMenu']) && $menuItem['isToggleMenu'])
+        <li class="menu-item">
+          <a href="javascript:void(0);" class="menu-link menu-toggle">
+            @if(!empty($menuItem['icon']))
+              <i class="menu-icon tf-icons {{$menuItem['icon']}}"></i>
             @endif
-          </li>
-          @else
-            <li class="menu-item">
-              <a href="{{route($subMenuItem['route'])}}" class="menu-link">
-              @if(!empty($subMenuItem['icon']))
-              <i class="menu-icon tf-icons {{$subMenuItem['icon']}}"></i>
+            <div class="text-truncate" data-i18n="{{$menuItem['menuItemText']}}">{{$menuItem['menuItemText']}}</div>
+          </a>
+          @if(!empty($menuItem['submenu']))
+          <ul class="menu-sub">
+            @foreach($menuItem['submenu'] as $subMenuItem)
+              @if(!empty($subMenuItem['isToggleMenu']) && $subMenuItem['isToggleMenu'])
+              <li class="menu-item">
+                <a href="javascript:void(0);" class="menu-link menu-toggle">
+                  <div class="text-truncate" data-i18n="{{$subMenuItem['menuItemText']}}">{{$subMenuItem['menuItemText']}}</div>
+                </a>
+                @if(!empty($subMenuItem['submenu']))
+                  <ul class="menu-sub">
+                    @foreach($subMenuItem['submenu'] as $ssubMenuItem)
+                    <li class="menu-item">
+                      <a href="{{route($ssubMenuItem['route'])}}" class="menu-link">
+                        @if(!empty($ssubMenuItem['icon']))
+                        <i class="menu-icon tf-icons {{$ssubMenuItem['icon']}}"></i>
+                        @endif
+                        <div class="text-truncate" data-i18n="{{$ssubMenuItem['menuItemText']}}">{{$ssubMenuItem['menuItemText']}}</div>
+                      </a>
+                    </li>
+                    @endforeach
+                  </ul>
+                @endif
+              </li>
+              @else
+                <li class="menu-item">
+                  <a href="{{route($subMenuItem['route'])}}" class="menu-link">
+                  @if(!empty($subMenuItem['icon']))
+                  <i class="menu-icon tf-icons {{$subMenuItem['icon']}}"></i>
+                  @endif
+                  <div class="text-truncate" data-i18n="{{$subMenuItem['menuItemText']}}">{{$subMenuItem['menuItemText']}}</div>
+                </a>
+              </li>
               @endif
-              <div class="text-truncate" data-i18n="{{$subMenuItem['menuItemText']}}">{{$subMenuItem['menuItemText']}}</div>
-            </a>
-          </li>
+            @endforeach
+          </ul>
           @endif
-        @endforeach
-      </ul>
-      @endif
-    </li>
-    @else
-    <li class="menu-item">
-      <a href="{{route($menuItem['route'])}}" class="menu-link">
-        @if(!empty($menuItem['icon']))
-          <i class="menu-icon tf-icons {{$menuItem['icon']}}"></i>
+        </li>
+        @else
+        <li class="menu-item">
+          <a href="{{route($menuItem['route'])}}" class="menu-link">
+            @if(!empty($menuItem['icon']))
+              <i class="menu-icon tf-icons {{$menuItem['icon']}}"></i>
+            @endif
+            <div class="text-truncate" data-i18n="{{$menuItem['menuItemText']}}">{{$menuItem['menuItemText']}}</div>
+          </a>
+        </li>
         @endif
-        <div class="text-truncate" data-i18n="{{$menuItem['menuItemText']}}">{{$menuItem['menuItemText']}}</div>
-      </a>
-    </li>
-    @endif
-    @empty
-    @endforelse
+      @empty
+      @endforelse
     @else
     @endauth
 
