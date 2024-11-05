@@ -89,6 +89,9 @@
     <script src="{{ asset('/assets/dashboard/vendor/js/template-customizer.js') }}"></script>
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
     <script src="{{ asset('/assets/dashboard/js/config.js') }}"></script>
+
+    <link rel="stylesheet" type="text/css" href="{{ asset('/assets/dashboard/vendor/css/rtl/core.css')}}" class="template-customizer-core-css">
+        <link rel="stylesheet" type="text/css" href="{{ asset('/assets/dashboardvendor/css/rtl/theme-default.css')}}" class="template-customizer-theme-css">
     
 </head>
 
