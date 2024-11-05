@@ -18,7 +18,7 @@
     class="light-style layout-wide customizer-hide"
     dir="ltr"
     data-theme="theme-default"
-    data-assets-path="{{ asset('/assets/dashboard\/') }}"
+    data-assets-path="{{ asset('/assets/dashboard/') }}"
     data-template="vertical-menu-template"
     data-style="light"
 >
@@ -42,13 +42,13 @@
             content="dashboard, bootstrap 5 dashboard, bootstrap 5 design, bootstrap 5"
         />
         <!-- Canonical SEO -->
-        <link
+        <!-- <link
             rel="canonical"
             href="https://themeselection.com/item/sneat-dashboard-pro-bootstrap/"
-        />
+        /> -->
 
         <!-- ? PROD Only: Google Tag Manager (Default ThemeSelection: GTM-5DDHKGP, PixInvent: GTM-5J3LMKC) -->
-        <script>
+        <!-- <script>
             (function (w, d, s, l, i) {
                 w[l] = w[l] || [];
                 w[l].push({
@@ -62,7 +62,7 @@
                 j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
                 f.parentNode.insertBefore(j, f);
             })(window, document, "script", "dataLayer", "GTM-5DDHKGP");
-        </script>
+        </script> -->
         <!-- End Google Tag Manager -->
 
         <!-- Favicon -->
