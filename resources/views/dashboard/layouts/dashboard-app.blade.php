@@ -25,18 +25,18 @@
     <meta name="description" content="Most Powerful &amp; Comprehensive Bootstrap 5 Admin Dashboard built for developers!">
     <meta name="keywords" content="dashboard, bootstrap 5 dashboard, bootstrap 5 design, bootstrap 5">
     <!-- Canonical SEO -->
-    <link rel="canonical" href="https://themeselection.com/item/sneat-dashboard-pro-bootstrap/">
+    <!-- <link rel="canonical" href="https://themeselection.com/item/sneat-dashboard-pro-bootstrap/"> -->
     
     
     <!-- ? PROD Only: Google Tag Manager (Default ThemeSelection: GTM-5DDHKGP, PixInvent: GTM-5J3LMKC) -->
-    <script>(function (w, d, s, l, i) {
+    <!-- <script>(function (w, d, s, l, i) {
         w[l] = w[l] || []; w[l].push({
           'gtm.start':
             new Date().getTime(), event: 'gtm.js'
         }); var f = d.getElementsByTagName(s)[0],
           j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
             'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-5DDHKGP');</script>
+      })(window, document, 'script', 'dataLayer', 'GTM-5DDHKGP');</script> -->
     <!-- End Google Tag Manager -->
     
     <!-- Favicon -->
